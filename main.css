@@ -1,15 +1,27 @@
+html, body{
+    height: 100%
+}
+
 body{
     font-size: 60%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(175, 175, 175);
+    height: 100%;
 }
 
 .wrapper{
+    padding: 0 0 10em 38.0em;
+    position: absolute;
+    height: 100%;
+}
+
+.wrapper2{
     margin: 0;
-    max-width: 1170px;
-    padding: 0;
+    padding: 0 37.0em 10em 0;
+    position: absolute;
+    height: 100%;
 }
 /* Header */
 header{
@@ -33,7 +45,7 @@ header{
 header nav{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 36.0em;
 }
 
 header input{
@@ -47,7 +59,7 @@ header input{
     border-left-style: hidden;
     border-style: hidden;
     position: absolute;
-    right: 10px;
+    right: 14.3em;
     top: 150px;
 }
 
@@ -89,14 +101,13 @@ nav#socials ul li a:hover{
 
 #sidebar{
     width: 300px;
-    height: 700px;
+    height: 930px;
     border: solid 4px white;
     border-radius: 10px;
     float: left;
     position: relative;
     background-color: black;
-    margin: 1.5em 0 3.0em 1.5em;
-    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-top: 1.5em;
 }
 
 #sidebar ul{
@@ -120,9 +131,8 @@ nav#socials ul li a:hover{
 #sidebar .mailinglist{
     background: #e86f16;
     border: solid 2px lightgray;
-    border-radius: 10px;
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     width: 296px;
 }
 
@@ -152,7 +162,7 @@ nav#socials ul li a:hover{
     overflow: hidden;
     border: 4px solid white;
     border-radius: 10px;
-    margin: 0 auto;
+    float: right;
     margin-bottom: 15px;
     margin-top: 1.5em;
 }
@@ -270,4 +280,144 @@ nav#socials ul li a:hover{
 	75%{margin-left: -2522px;}
 	88%{margin-left: -2522px;}
 	100%{margin-left: 0px;}
+}
+
+#articles h1{
+    color: #e86f16;
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+#articles{
+    width: 838px;
+    height: auto;
+    background: black;
+    border: solid 4px white;
+    border-radius: 10px;
+    float: right;
+}
+
+#articles ul{
+    margin: 0;
+    padding: 5px 0 5px 0px;
+    text-align: center;
+}
+
+#articles li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+#articles li h2{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#articles li h4{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.articleTitle{
+    width: 30%;
+    height: 100px;
+    background-color: #e86f16;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#articles ul li.articleTitle a:link, ul li.articleTitle a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+#articles ul li.articleTitle a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+#podcasts h1{
+    color: #e86f16;
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+
+#podcasts{
+    width: 838px;
+    height: auto;
+    background: black;
+    border: solid 4px white;
+    border-radius: 10px;
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+#podcasts ul{
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+
+#podcasts li{
+    display: inline-block;
+    padding: 5px 25px 0 0;
+    text-align: center;
+}
+
+.podcastLogo{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#podcasts li h3{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*Footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    color: white;
+    font-size: 12px;
+    border-top: 4px solid white;
+}
+
+footer span{
+    color: #e86f16;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content ul{
+    list-style: none;
+}
+
+.footer-content li{
+    display: inline-block;
+}
+
+.footer-content ul li.menuItem a:link, ul li.menuItem a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content ul li.menuItem a:hover{
+    color: #e86f16;
+    text-decoration: underline;
 }
