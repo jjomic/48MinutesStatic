@@ -1,14 +1,22 @@
 body{
+    font-size: 60%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(175, 175, 175)
+    background-color: rgb(175, 175, 175);
+}
+
+.wrapper{
+    margin: 0;
+    max-width: 1170px;
+    padding: 0;
 }
 /* Header */
 header{
     width: 100%;
     height: 187px;
     background-color: black;
+    border-bottom: solid 4px white;
 }
 
 .headerlogo{
@@ -22,20 +30,74 @@ header{
     max-height: 157px;
 }
 
-/* NAVS */
-nav#socials{
+header nav{
     position: absolute;
     top: 0;
     right: 0;
-    height: 44px;
-    width: 270px;
-
 }
+
+header input{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    color: #e86f16;
+    background-color: black;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-style: hidden;
+    position: absolute;
+    right: 10px;
+    top: 150px;
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration{ display: none; }
+
+::placeholder{
+    color: #e86f16;
+    opacity: 0.75;
+}
+
+/* NAVS */
 
 nav#socials ul{
     list-style: none;
+    padding: 0 1.0em 0.5em;
 }
 
 nav#socials li{
     display: inline-block;
+}
+
+/*Sidebar*/
+
+#sidebar{
+    width: 300px;
+    height: 700px;
+    border: solid 4px white;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    background-color: black;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+}
+
+#sidebar ul{
+    list-style: none;
+    font-size: 35px;
+    color: #e86f16;
+}
+
+#sidebar ul li.topic a:link, ul li.topic a:visited{
+    color: #e86f16;
+    text-decoration: none;
+}
+
+#sidebar ul li.topic a:hover{
+    color: white;
+    text-decoration: underline;
 }
