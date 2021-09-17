@@ -72,6 +72,11 @@ nav#socials li{
     display: inline-block;
 }
 
+nav#socials ul li a:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+
 /*Sidebar*/
 
 #sidebar{
