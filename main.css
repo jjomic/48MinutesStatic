@@ -219,10 +219,10 @@ nav#socials ul li a:hover{
     width: 5500px;
     height: 475px;
     overflow: hidden;
-    animation: slide 16s infinite;
-    -moz-animation: slide 16s infinite;
-    -webkit-animation: slide 16s infinite;
-    -o-animation: slide 16s infinite;
+    animation: slide 30s infinite;
+    -moz-animation: slide 30s infinite;
+    -webkit-animation: slide 30s infinite;
+    -o-animation: slide 30s infinite;
 }
 
 @keyframes slide{
