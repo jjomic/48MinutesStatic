@@ -4,7 +4,7 @@ body{
     padding: 0;
     background-color: rgb(175, 175, 175)
 }
-
+/* Header */
 header{
     width: 100%;
     height: 187px;
@@ -20,4 +20,22 @@ header{
 .headerlogo img{
     width: 157px;
     max-height: 157px;
+}
+
+/* NAVS */
+nav#socials{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 44px;
+    width: 270px;
+
+}
+
+nav#socials ul{
+    list-style: none;
+}
+
+nav#socials li{
+    display: inline-block;
 }
