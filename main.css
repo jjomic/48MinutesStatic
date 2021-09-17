@@ -103,6 +103,8 @@ nav#socials ul li a:hover{
     list-style: none;
     font-size: 35px;
     color: #e86f16;
+    text-align: right;
+    margin: 0 10px 0 0;
 }
 
 #sidebar ul li.topic a:link, ul li.topic a:visited{
@@ -134,7 +136,7 @@ nav#socials ul li a:hover{
 }
 
 #sidebar ul#form button{
-    margin: 0 4.5em 0 5.5em;
+    margin: 0 8.5em 0 4.5em;
     color: #e86f16;
     background-color: lightgray;
     font-weight: bold;
