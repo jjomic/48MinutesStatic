@@ -8,110 +8,103 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
-        <div class="headerlogo">
-            <a href="#"><img src="../StaticStoreFront/assets/logo_01.png" alt="48 Minutes Logo"></a>
+        <div class="contentWrapper">
+            <!-- logo -->
+            <div id="homeLogo">
+                <a href="#"><img src="C:\ElevenFiftyProjects\DotNetProjects\StaticStoreFront\assets\logo_01.png" alt="48 Minutes Logo" style="width: 157px; height: 157px;"></a>
+            </div>
+            <!--social icons-->
+            <div id=headerInfo>
+                <nav id="socialMedia">
+                    <ul>
+                        <li class="icon"><a href="https://twitter.com/48minutesntwrk" target="_blank"><img src="assets/twitter.png" alt="Twitter" style="width: 35px; height: 35px"></a></li>
+                        <li class="icon"><a href="https://www.youtube.com/channel/UCEmonLV60lV5JAtIN_SEqLw" target="_blank"><img src="assets/youtube.png" alt="YouTube" style="width: 80px; height: 35px"></a></li>
+                        <li class="icon"><a href="https://www.tiktok.com/@48minutesnetwork?lang=en" target="_blank"><img src="assets/tiktok.png" alt="TikTok" style="width: 30px; height: 35px;"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <input type=search id=search placeholder="search...">
         </div>
-        <nav id="socials">
-            <ul>
-                <li class="icon"><a href="https://twitter.com/48minutesntwrk"><img src="../StaticStoreFront/assets/twitter.png" style="width:35px;height:35px;"></a></li>
-                <li class="icon"><a href="https://www.youtube.com/channel/UCEmonLV60lV5JAtIN_SEqLw"><img src="../StaticStoreFront/assets/youtube.png" style="width:80px;height:35px;"></a></li>
-                <li class="icon"><a href="https://www.tiktok.com/@48minutesnetwork?"><img src="../StaticStoreFront/assets/tiktok.png" style="width: 30px;height:35px"></a></li>
-            </ul>
-        </nav>
-        <input type="search" class="search" placeholder="search...">
     </header>
 
-    <!-- Sidebar -->
-    <div class="wrapper">
+    <div class="contentWrapper">
         <section id="sidebar">
+            <!--nav links-->
             <ul>
-                <li class="topic"><a href="#">NBA</a></li>
-                <li class="topic"><a href="#">NCAA</a></li>
-                <li class="topic"><a href="#">Podcasts</a></li>
-                <li class="topic"><a href="#">Staff</a></li>
-                <li class="topic"><a href="#">Contact</a></li>
+                <li><a href="#">NBA</a></li>
+                <li><a href="#">NCAA</a></li>
+                <li><a href="#">Podcasts</a></li>
+                <li><a href="#">Staff</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            <div class="mailinglist">
-                <h4>JOIN OUR MAILING LIST!</h4>
-                <ul id="form">
-                    <li><input type="text" placeholder="Name"></li>
-                    <li><input type="email" placeholder="E-mail"></li>
-                    <li><button type=submit>SUBMIT</button></li>
-                </ul>
+            <!--mailing list-->
+            <div id="mail">
+                <h3>JOIN OUR MAILING LIST!</h3>
+                <input type="text" placeholder="Name">
+                <br>
+                <br>
+                <input type="email" placeholder="E-mail">
+                <br>
+                <br>
+                <button type="submit">SUBMIT!</button>
             </div>
         </section>
     </div>
 
-    <!-- Main -->
-    <div class="wrapper2">
+    <div class="contentWrapper">
         <section id="main">
-            <div id="cssSlider">
-                <div id="sliderImages">
-                    <a href="https://open.spotify.com/episode/2JbsbLIkPCvhk5dVTpx0A0?si=f7f52e831028418e" target="_blank"><img src="assets/bm915.jpg" alt="Bench Mob" style="width: 838px; height: 475px;"></a>
-                    <div class="block1text">
-                        <h3>Bench Mob: Ben Simmons, John Wall, League Pass, and NBA 2k22</h3>
-                    </div>
-                    <a href="https://open.spotify.com/episode/5EBlVtxUobD36iKaRbVVFf?si=56e709a051cd4fdb"><img src="assets/oddsonfavorites.png" alt="Odds On Favorites" style="width: 838px; height: 475px;"></a>
-                    <div class="block2text">
-                        <h3>Bench Mob: Best Bets for Individual Awards</h3>
-                    </div>
-                    <a href="https://open.spotify.com/episode/03GST0l6LhxjaAcxAnqEv6?si=2ef44ecbe22644f5"><img src="assets/overunderwest.jpg" alt="Over/Under Western Conference" style="width: 838px; height: 475px;"></a>
-                    <div class="block3text">
-                        <h3>Bench Mob: Western Conference Over/Unders</h3>
-                    </div>
-                    <a href="https://open.spotify.com/episode/0JGfF7miRAm2BAQqXFKsWF?si=30deefc1384c4146"><img src="assets/overundereast.png"  alt="Over/Under Eastern Conference" style="width: 838px; height: 475px;"></a>
-                    <div class="block4text">
-                        <h3>Bench Mob: Eastern Conference Over/Unders</h3>
-                    </div>
+            <!--image slider-->
+            <div class="imageSlider">
+                <div class="sliderImages">
+                    <a href="https://open.spotify.com/episode/2JbsbLIkPCvhk5dVTpx0A0?si=f3d75e069134458a" target="_blank"><img src="assets/bm915.jpg" alt="Bench Mob September 15th" style="width: 838px; height: 475px;"></a>
+                    <a href="https://open.spotify.com/episode/5EBlVtxUobD36iKaRbVVFf?si=88e6848da6de438e" target="_blank"><img src="assets/oddsonfavorites.png" alt="Odds on Favorites" style="width: 838px; height: 475px;"></a>
+                    <a href="https://open.spotify.com/episode/03GST0l6LhxjaAcxAnqEv6?si=54e1781182004cda" target="_blank"><img src="assets/overunderwest.jpg" alt="Over/Under West" style="width: 838px; height: 475px;"></a>
+                    <a href="https://open.spotify.com/episode/0JGfF7miRAm2BAQqXFKsWF?si=ba61f6d5b84c4edc" target="_blank"><img src="assets/overundereast.png" alt="Over/Under East" style="width: 838px; height: 475px;"></a>
                 </div>
             </div>
-            <div id="articles">
+            <!--articles-->
+            <div id="featuredArticles">
                 <h1>Latest Articles:</h1>
-                <ul>
-                    <li class="articleTitle">
-                        <a href="#"><h2>Top 10 League Pass Teams <br> for 2021-22</h2></a>
-                        <h4>By: Kyle Brandon</h4>
-                    </li>
-                    <li class="articleTitle">
-                        <a href="#"><h2>Gordon-Nuggets Agree <br> On Extension</h2></a>
+                <div class="panel">
+                    <a href="#"><h2>Top 10 League Pass Teams <br> for the 2021-22 NBA Season</h2></a>
+                    <h4>By: Kyle Brandon</h4>
+                </div>
+                <div class="panel">
+                        <a href="#"><h2>Nuggets-Gordon agree to <br> multi-year extension.</h2></a>
                         <h4>By: Tim Daniel</h4>
-                    </li>
-                    <li class="articleTitle">
-                        <a href="#"><h2>Rockets-Wall Agree to Find New Home for Veteran Guard</h2></a>
-                        <h4>By: Joe Micucci</h4>
-                    </li>
-                </ul>
+                </div>
+                <div class="panel">
+                    <a href="#"><h2>Rockets-Wall Agree to Find New Home for Veteran Guard</h2></a>
+                    <h4>By: Joe Micucci</h4>
+                </div>
             </div>
-            <div id="podcasts">
-                <h1>Featured Podcasts:</h1>
-                <ul>
-                    <li class="podcast">
-                        <a href="https://open.spotify.com/episode/2JbsbLIkPCvhk5dVTpx0A0?si=f7f52e831028418e"><img src="assets/benchmob.jpg" alt="Bench Mob Logo" style="width: 150px; height: 150px;" class="podcastLogo"></a>
-                        <h3>Bench Mob</h3>
-                    </li>
-                    <li class="podcast">
-                        <a href="https://open.spotify.com/episode/2r0gW3FubMTbhpwvjO6wx4?si=2d02ca9828db4a59"><img src="assets/shotcallers.jpg" alt="Shot Callers Logo" style="width: 150px; height: 150px;" class="podcastLogo" ></a>
-                        <h3>Shot Callers</h3>
-                    </li>
-                    <li class="podcast">
-                        <a href="https://open.spotify.com/episode/3DfrLBK6ZydMODg1lX1PMi?si=33a7cc0a634646ba"><img src="assets/HoopsCinema.png" alt="Hoops Cinema Logo" style="width: 150px; height: 150px;" class="podcastLogo"></a>
-                        <h3>Hoops Cinema</h3>
-                    </li>
-                </ul>
+            <!--podcasts-->
+            <div id="featuredPodcasts">
+                <h1>Featured Podcasts</h1>
+                <div class="panelTwo">
+                    <a href="https://open.spotify.com/episode/2JbsbLIkPCvhk5dVTpx0A0?si=8a674851248a4f2d" target="_blank"><img src="assets/benchmob.jpg" alt="Bench Mob" style="width: 150px; height: 150px;">
+                    <h3>Bench Mob</h3></a>
+                </div>
+                <div class="panelTwo">
+                    <a href="https://open.spotify.com/episode/2r0gW3FubMTbhpwvjO6wx4?si=681119223b5840de" target="_blank"><img src="assets/shotcallers.jpg" alt="Shot Callers" style="width: 150px; height: 150px;">
+                    <h3>Shot Callers</h3></a>
+                </div>
+                <div class="panelTwo">
+                    <a href="https://open.spotify.com/episode/3DfrLBK6ZydMODg1lX1PMi?si=cdbff015d45c4212" target="_blank"><img src="assets/HoopsCinema.png" alt="Hoops Cinema" style="width: 150px; height: 150px;">
+                    <h3>Hoops Cinema</h3></a>
+                </div>
             </div>
         </section>
     </div>
-    <footer>
-        <div class="footer-content">
-            <span>&copy;2021 48 Minutes Basketball Network</span>
+
+        <footer>
+            <!--legal mumbo jumbo-->
             <ul id="menuFooter">
-                <li class="menuItem"><a href="#">Terms of Use</a></li>
-                <li class="menuItem"><a href="#">Privacy Policy</a></li>
-                <li>Website by Jomic Designs</li>
+                <li><a>Terms of Use -</a></li>
+                <li><a>Privacy Policy -</a></li>
+                <li>Website by Jomic Designs -</li>
             </ul>
-        </div>
-    </footer>
+        </footer>
 </body>
 </html>
